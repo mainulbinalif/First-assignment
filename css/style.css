@@ -266,6 +266,8 @@
     width: 430px;
     padding-top: 75px;
     margin-top: 5px;
+    position: relative;
+    left: -58px;
 }
 
 /* Best Gifts section */
