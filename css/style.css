@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500&family=PT+Serif:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: 'Dosis', sans-serif;
+}
+
+    /* Banner-section */
+#My-Banner {
+    background: url(../img/Banner\ Image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 602px;
+    margin: 20px auto;
+    border-radius: 16px;
+
+}
+
+.head-text {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.242) 100%);
+    border-radius: 16px;
+    height: 545px;
+    width: 100%;
+}
+
+.head-text>p {
+    display: block;
+    font-size: large;
+    color: white;
+    text-align: center;
+    padding: 188px 0 0 0;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.head-text>h1 {
+    margin-top: 0px;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    padding: 0px 0 0;
+}
+    /* Discount-section */
+#Discount-section {
+    margin: auto;
+    width: 70%;
+}
+
+.discount-section h1 {
+    font-size: 65px;
+    text-align: center;
+    color: red;
+    margin-bottom: 25px;
+}
+
+.discount-section p {
+    text-align: center;
+    margin: 0;
+    color: red;
+}
+
+.discount-section h3 {
+    color: rgb(7, 12, 31);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.new-year-photo {
+    width: 60%;
+    margin: auto;
+}
+    /* Midnight-section */
+#welcome-midnight {
+    width: 70%;
+    height: 600px;
+    margin: auto;
+    background-image: url(../img/Vectorrr.png);
+    background-repeat: no-repeat;
+}
+
+.midnight {
+    background-image: linear-gradient(to right, rgb(0 0 0), rgba(0, 0, 0, 0.223));
+    height: 600px;
+    border-radius: 16px;
+    display: flex;
+    margin-top: 90px;
+}
+
+.midnight-texts {
+    display: inline;
+    width: 70%;
+}
+
+.midnight-texts h1 {
+    font-size: 75px;
+    letter-spacing: 5px;
+    padding: 90px 0 0 146px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.midnight-texts p {
+    color: #ddd;
+    padding: 0 0 0 146px;
+}
+
+.midnight-texts h3 {
+    color: #c5c0c0;
+    padding: 9px 0 0 169px;
+}
+
+.midnight-img {
+    padding: 77px 159px 77px 50px;
+    width: 296px;
+}
+    /* Address-section */
+#address-section {
+    margin: auto;
+    margin-top: 65px;
+    width: 70%;
+    height: 480px;
+    background-image: linear-gradient(180deg, rgba(241, 200, 207, 0.63), transparent);
+    border-radius: 16px;
+}
+
+.address {
+    font-size: 22px;
+    text-align: center;
+    padding-top: 111px;
+    line-height: 22px;
+}
+
+.address span {
+    color: red;
+}
+
+.address input {
+    background-color: red;
+    height: 43px;
+    width: 107px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+    /* Best-Offer section */
+#Best-offer {
+    width: 70%;
+    margin: auto;
+    display: flex;
+
+}
+
+#Best-offer .text-1 {
+    width: 363px;
+    justify-content: space-around;
+}
+
+#Best-offer .text-1 h4 {
+    color: red;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#Best-offer .text-1 h2 {
+    font-size: 35px;
+}
+
+#Best-offer .text-1 p {
+    color: #817d7d;
+}
+
+.best-offer-image {
+    width: 463px;
+    height: 463px;
+    margin-left: 66px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 214px;
+}
+
+.best-offer-image .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 430px;
+    height: 430px;
+    background-color: white;
+    border-radius: 201px;
+}
+
+.best-offer-image .image img {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border-radius: 201px;
+}
+
+#Best-offer .text-2 {
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-left: 95px;
+}
+#Best-offer .text-2 img{
+    margin-top: 40px;
+}
+
+#Best-offer .text-2 h3 {
+    font-size: 36px;
+    color: red;
+}
+
+#Best-offer .text-2 p {
+    color: #918787;
+}
+
+    /* Holidays Sale Section */
+#Holidays-Sale {
+    margin: 75px auto;
+    width: 70%;
+}
+
+#Holidays-Sale .holidays-text h3 {
+    text-align: center;
+}
+
+#Holidays-Sale .holidays-text h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#Holidays-Sale .holidays-text h1 span {
+    color: red;
+}
+
+#Holidays-Sale .holidays-text p {
+    color: #817c7c;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+#Holidays-Sale .holidays-image {
+    display: flex;
+    background-image: url(../img/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    margin-top: 50px;
+}
+
+#Holidays-Sale .holidays-image .img-1 {
+    background-color: rgba(255, 255, 255, 0.03);
+
+}
+
+#Holidays-Sale .holidays-image .img-2 {
+    background-image: url(../img/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    padding-right: 97px;
+    width: 430px;
+    padding-top: 75px;
+    margin-top: 5px;
+}
+
+/* Best Gifts section */
+#BEST-GIFTS {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.best-gifts-text h3 {
+    color: red;
+    font-size: 20px;
+}
+
+.best-gifts-text h1 {
+    font-size: 50px;
+    margin: 0px;
+}
+
+.best-gifts-image-1 {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.best-gifts-image-1 .image {
+    width: 423px;
+    height: 424px;
+}
+
+.best-gifts-image-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+#BEST-GIFTS .image:hover {
+    box-shadow: 11px 14px 63px -12px black;
+    border-radius: 16px;
+}
+
+#subscription-newsletter {
+    width: 70%;
+    margin: auto;
+    background-color: rgb(211 166 204 / 11%);
+    border-radius: 16px;
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+/* Subscription Section */
+#subscription-newsletter .logo img {
+    margin: 159px auto 0px 564px;
+}
+
+#subscription-newsletter h2 {
+    font-size: 52px;
+    text-align: center;
+    margin: 17px;
+}
+
+#subscription-newsletter p {
+    text-align: center;
+    color: #817c7c;
+}
+
+#subscription-newsletter .subscribe {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    height: 40px;
+}
+
+#subscription-newsletter .subscribe input {
+    width: 300px;
+    border-radius: 15px 0 0 15px;
+    border: none;
+    padding: 17px;
+}
+
+
+#subscription-newsletter .subscribe button {
+    background: red;
+    color: white;
+    width: 125px;
+    border-radius: 0 15px 15px 0;
+    border: none;
+    padding: 10px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #100428;
+    height: 500px;
+    margin-top: 65px;
+}
+
+#footer-1 {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #58e9c9c7;
+}
+
+.location {
+    margin-top: 40px;
+
+}
+
+.location p {
+    color: white;
+    justify-content: space-around;
+    font-size: 19px;
+}
+
+.contact {
+    margin-top: 26px;
+    position: relative;
+    right: -814px;
+}
+
+.contact p {
+    color: white;
+    justify-content: space-between;
+    position: relative;
+    position: right;
+}
+
+#footer-2 {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #8282e3c7;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-3 {
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+.footer-3 p {
+    color: white;
+    padding-right: 988px;
+}
+
+.footer-3 h4 {
+    color: white;
+}
